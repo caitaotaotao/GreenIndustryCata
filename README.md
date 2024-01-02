@@ -77,6 +77,8 @@ result
 ***
 
 ### **参考**
+SimCSE
+https://github.com/KwangKa/SIMCSE_unsup
 
 [junnyu/roformer\_chinese\_sim\_char\_base · Hugging Face](https://huggingface.co/junnyu/roformer_chinese_sim_char_base)
 
