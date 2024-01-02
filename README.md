@@ -18,7 +18,7 @@
 
 *   &#x9;	label = {0, 1}
 
-<!---->
+
 
 *   &#x9;	正向样本 (len=1)
 
@@ -31,8 +31,6 @@
 *   &#x9;	平衡正样本 (len=209)
 
     &#x9;		x\_generate = ('生成相似三级目录标题'， '清洗后的三级目录解释说明')
-
-
 
 ***
 
@@ -76,9 +74,22 @@ result
 
 ***
 
+### &#x20;**测试DEMO**
+
+利用FastAPI + Streamlit生成测试环境DEMO，方便查看模型效果、搜集人工标注数据。
+
+```bash
+$ cd demo
+$ python -m uvicorn main:app --port 8000 --reload && python -m streamlit run demo.py --server.port 8080
+```
+
+***
+
 ### **参考**
-SimCSE
-https://github.com/KwangKa/SIMCSE_unsup
+
+SimCSE: <https://github.com/KwangKa/SIMCSE_unsup>
+
+
 
 [junnyu/roformer\_chinese\_sim\_char\_base · Hugging Face](https://huggingface.co/junnyu/roformer_chinese_sim_char_base)
 
